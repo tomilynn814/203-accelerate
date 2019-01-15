@@ -40,3 +40,19 @@ Text Domain:  accelerate-theme-child
 	color: #45ac9d;
 	text-transform: uppercase;
 }
+/*custom post types*/
+.main-content h2{
+	font-size:24px;
+	color:#ff751a;
+    margin-right: 30px;
+}
+.main-content h5{
+	font-size: 18px;
+	color:#ff751a;
+	
+}
+
+
+
+
+

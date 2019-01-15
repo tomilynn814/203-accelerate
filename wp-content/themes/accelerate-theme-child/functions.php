@@ -9,6 +9,20 @@
 * @subpackage Accelerate Marketing
 * @since Accelerate Marketing 2.0
 */
+function create_custom_post_types() {
+    register_post_type( 'case_studies',
+        array(
+            'labels' => array(
+                'name' => __( 'Case Studies' ),
+                'singular_name' => __( 'Case Study' )
+            ),
+            'public' => true,
+            'has_archive' => true,
+            'rewrite' => array( 'slug' => 'case-studies' ),
+        )
+    );
+}
+add_action( 'init', 'create_custom_post_types' );
 // Enqueue scripts and styles
 function accelerate_child_scripts(){
 	wp_enqueue_style( 'accelerate-style', get_template_directory_uri() . '/style.css' );

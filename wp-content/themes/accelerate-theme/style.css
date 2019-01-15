@@ -103,7 +103,7 @@ i {
    font-style: italic;
 }
 p {
-   color: #3b3b3b;
+   color: ##ff751a;
    font: 17px/1.65 'Open Sans', Arial, sans-serif;
    margin: 1em auto;
 }
@@ -205,7 +205,7 @@ body {
    margin: 0;
 }
 body {
-   background: #fff;
+   background: #e1e1ea;
    color: #3b3b3b;
    font: 17px/1.65 'Open Sans', Arial, sans-serif;
    height: auto;
@@ -214,7 +214,7 @@ body {
 	width: 100%;
 }
 #masthead {
-  background: none repeat scroll 0 0 #333;
+  background: none repeat scroll 0 0 #ff751a;
   padding: .75em 0;
 }
 .page-header, .site-content, #navigation, .site-footer {
@@ -422,7 +422,7 @@ body {
 /* NEXT / PREV STYLES */
 #navigation {
 	background: #fff;
-	border-top: 1px solid #bfbfbf;
+	border-top: 1px solid #ff751a;
 	clear: both;
 	font: .8em/4.08 'Open Sans', Arial, sans-serif;
 	overflow: hidden;
@@ -441,7 +441,7 @@ body {
 }
 #navigation .left a,
 #navigation .right a {
-	color: #45ac9d;
+	color: #ff751a;
 	text-decoration: none;
 	font-weight: 600;
 	text-transform: uppercase;
@@ -669,7 +669,7 @@ a.button, a.button:link {
 	   -moz-transition: all 0.5s ease;
 	   -o-transition: all 0.5s ease;
 	   transition: all 0.5s ease;
-	   background: #eeeeee;
+	   background:#ff751a;
    }
    .blog .site-content, .single .site-content, .sidebar {
 	   display: -webkit-box;
