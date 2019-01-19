@@ -20,9 +20,9 @@ get_header(); ?>
 				$services = get_field ('services');
 				$client=get_field('client');
 				$link=get_field('site_link');
-				$image_1=get_field('image_1');
-				$image_2=get_field('image_2');
-				$image_3=get_field('image_3');?>
+				$image_1=get_field('image_001');
+				$image_2=get_field('image_002');
+				$image_3=get_field('image_003');?>
 
 	<article class="case-study">
 	<aside class="case-study-sidebar">
@@ -49,11 +49,6 @@ get_header(); ?>
 	<img src="<?php echo $image_3; ?>" />
 <?php } ?>
 
-<img src="<?php echo $image_1; ?>" />
-
-<img src="<?php echo $image_2; ?>" />
-
-<img src="<?php echo $image_3; ?>" />
          
 
 		</div><!-- .main-content -->
