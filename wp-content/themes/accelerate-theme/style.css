@@ -214,7 +214,7 @@ body {
 	width: 100%;
 }
 #masthead {
-  background: none repeat scroll 0 0 #ff751a;
+  background: none repeat scroll 0 0 red;
   padding: .75em 0;
 }
 .page-header, .site-content, #navigation, .site-footer {
@@ -264,6 +264,7 @@ body {
 #sidebar {
    display: none;
 }
+
 /* End BODY STYLES */
 
 /* BLOG STYLES */
@@ -284,7 +285,7 @@ body {
 	color: #45ac9d;
 }
 .entry-time {
-	color: #45ac9d;
+	color: black;
 	font: 600 .82em/1.65 'Open Sans', Arial, sans-serif;
 }
 .category .page-title {
@@ -295,7 +296,7 @@ body {
 	color: #45ac9d;
 }
 .entry-summary a {
-	color: #45ac9d;
+	color: black;
 	font-weight: 600;
 }
 .entry-summary a:hover {
@@ -421,7 +422,7 @@ body {
 
 /* NEXT / PREV STYLES */
 #navigation {
-	background: #fff;
+	background: red;
 	border-top: 1px solid #ff751a;
 	clear: both;
 	font: .8em/4.08 'Open Sans', Arial, sans-serif;
@@ -604,7 +605,7 @@ body {
 }
 .button {
     font: 700 1em/1 'Montserrat', 'OpenSans', Arial, sans-serif;
-    color: #fff;
+    color: red;
 	background: #333;
     padding: 1em 3.75em;
     text-align: center;

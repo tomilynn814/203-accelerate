@@ -43,7 +43,8 @@ get_header(); ?>
 	<img src="<?php echo $image_1; ?>" />
 <?php } ?>	
 <?php if($image_2) { ?>
-	<img src="<?php echo $image_2; ?>" />
+	<img src="<?php echo $image_2;
+	 ?>" />
 <?php } ?>
 <?php if($image_3) { ?>
 	<img src="<?php echo $image_3; ?>" />

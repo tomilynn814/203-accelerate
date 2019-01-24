@@ -10,7 +10,7 @@ Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibi
 Text Domain:  accelerate-theme-child
 */
 .home-page {
-    background: url("img/windmill-image.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
  
 }
 #masthead {
@@ -18,18 +18,22 @@ Text Domain:  accelerate-theme-child
 }
 .button {
    
-	background: #45ac9d;
+	background:#f4d142;
 }
 .blog-post {
 	width: 50%;
-	float: left;
-	margin-bottom: 2em;
-}
+	
+	}
+.blog-post p {
+	float:left;
+	padding:0;
+	}
+
 .blog-post h4 {
     font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
     color: #a6a6a6;
     text-transform: uppercase;
-    margin: 2em 0 .5em;
+    margin-top:10px;
 }
 .blog-post h3 {
 	font-size: 1.5em;
@@ -37,22 +41,97 @@ Text Domain:  accelerate-theme-child
 .read-more-link {
 	font-family: 'Montserrat';
 	font-weight: 700;
-	color: #45ac9d;
+	color: black;
 	text-transform: uppercase;
 }
 /*custom post types*/
-.main-content h2{
-	font-size:24px;
-	color:#ff751a;
+.main-content h5{
+	font-size:36px;
+	color:#1526c1;
     margin-right: 30px;
 }
 .main-content h5{
 	font-size: 18px;
-	color:#ff751a;
+	color:#1526c1;
 	
 }
 
+.section h4{
+	color:#f4d142;
+	font-size: 48px;
 
+}
+.hero-content h1 {
+	color:white;
+	font-weight:bold;
+	font-size: 56px;
+    line-height: 1.5;
+	margin: 0 15%;
+}
+.hero-content h3 {
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 1.4em;
+    font-weight: normal;
+    margin: 0 0 3em;
+    font-weight:bold;
+}
+#masthead {
+  background: none repeat scroll 0 0 #f4d142;
+  padding: .75em 0;
+}
+.button {
+    font: 700 1em/1 'Montserrat', 'OpenSans', Arial, sans-serif;
+    color: red;
+	background: #f4d142;
+    padding: 1em 3.75em;
+    text-align: center;
+}
+.page-header .top-logo .title {
+   color: white;
+   font: 700 1.5em/1.3125 'Montserrat', 'Open Sans', Arial, sans-serif;
+   display: block;
+   text-transform: uppercase;
+}
+.individual-featured-work{
+	float:left;
+	margin:3px;
+	padding:0;
+	
+} 
+.section-class h4{
+	margin-right: 20px;
+}
+.li h3{
+     margin-right:10px;
+ }
+entry-summary a {
+    color: black;
+}
+.entry-time {
+	color: black;
+	font: 600 .82em/1.65 'Open Sans', Arial, sans-serif;
+}
+#navigation {
+	background:#f4d142;
+	border-top: 1px solid #ff751a;
+	clear: both;
+	font: .8em/4.08 'Open Sans', Arial, sans-serif;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+	text-align: center;
+	margin-bottom: -2em;
+}
+#sidebar h2 {
+   
+    color: black;
+   
+}
+#sidebar .widget_search input[type="submit"] {
+    width: 13%;
+    border-top: 1px solid #f4d142;
+    border-bottom: 1px solid#f4d142;
+    border-right: 1px solid #f4d142;
 
-
-
+}
